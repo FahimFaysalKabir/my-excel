@@ -1,0 +1,12 @@
+.form label{
+   padding:10px 0px;
+   display: block;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="file"],
+form input[type="submit"]{
+  display: block;
+
+}
