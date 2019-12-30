@@ -21,8 +21,8 @@
     <label for="temperature">TEMPERATURE</label>
     <input name="temperature" type="text" placeholder="TEMPERATURE">
     <label for="everyday">EVERYDAY TRY TO SOLVE A PROBLEM,AND MAKE YOUR COMPANY BETTER </label>
-    <textarea name="everyday" rows="8" cols="30">
-      EVERYDAY TRY TO SOLVE A PROBLEM,AND MAKE YOUR COMPANY BETTER
+    <textarea name="everyday" rows="8" cols="30" >
+
     </textarea>
     <label for="juhr">JUHR(Y/N)</label>
     <input name="juhr" type="text" placeholder="JUHR Y/N">
@@ -39,7 +39,7 @@
     <input name="tea-cigarette" type="text" placeholder="TEA-CIGARETTE COST">
     <label for="report">(REPORT) DONE IS BETTER THAN PERFECT</label>
     <textarea name="report" rows="8" cols="30">
-      (REPORT) DONE IS BETTER THAN PERFECT
+
     </textarea>
     <label for="sign-out">SIGN-OUT TIME</label>
     <input name="sign-out" type="text" placeholder="SIGN-OUT TIME">
@@ -49,7 +49,7 @@
     <input name="over-time-end" type="text" placeholder="OVER-TIME (END)">
     <label for="report-1">(REPORT-1) "BRINGING CODE TO LIFE" </label>
     <textarea name="report-1" rows="8" cols="30">
-      (REPORT-1) DONE IS BETTER THAN PERFECT
+
     </textarea>
 
     <label for="ss">SCREENSHOTS</label>

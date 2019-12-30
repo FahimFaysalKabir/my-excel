@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 29, 2019 at 06:33 PM
+-- Generation Time: Dec 30, 2019 at 09:30 AM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.3.6
 
@@ -25,23 +25,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `dec`
---
-
-CREATE TABLE `dec` (
-  `sl` int(100) NOT NULL,
-  `dc_date` date NOT NULL,
-  `fazr` varchar(100) NOT NULL,
-  `juhr` varchar(100) NOT NULL,
-  `asr` varchar(100) NOT NULL,
-  `magrib` varchar(100) NOT NULL,
-  `esha` varchar(100) NOT NULL,
-  `image` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `december`
 --
 
@@ -49,10 +32,21 @@ CREATE TABLE `december` (
   `sl` int(100) NOT NULL,
   `dc_date` date NOT NULL,
   `fazr` varchar(100) NOT NULL,
+  `breakfastcost` varchar(100) NOT NULL,
+  `signintime` varchar(100) NOT NULL,
+  `temperature` varchar(100) NOT NULL,
+  `problem` varchar(300) NOT NULL,
   `juhr` varchar(100) NOT NULL,
+  `snackscost` varchar(100) NOT NULL,
   `asr` varchar(100) NOT NULL,
   `magrib` varchar(100) NOT NULL,
   `esha` varchar(100) NOT NULL,
+  `tea` varchar(100) NOT NULL,
+  `report` varchar(500) NOT NULL,
+  `signout` varchar(100) NOT NULL,
+  `overstart` varchar(100) NOT NULL,
+  `overend` varchar(100) NOT NULL,
+  `report1` varchar(500) NOT NULL,
   `image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -60,22 +54,12 @@ CREATE TABLE `december` (
 -- Dumping data for table `december`
 --
 
-INSERT INTO `december` (`sl`, `dc_date`, `fazr`, `juhr`, `asr`, `magrib`, `esha`, `image`) VALUES
-(16, '2019-12-10', 'N', 'y', 'y', 'y', 'y', 'Screenshot_5.png'),
-(17, '2019-12-10', 'y', 'y', 'y', 'y', 'y', 'Screenshot_5.png'),
-(18, '2019-12-10', 'y', 'y', 'y', 'y', 'y', 'Screenshot_5.png'),
-(19, '2019-12-10', 'y', 'y', 'y', 'y', 'y', 'Screenshot_5.png'),
-(20, '2019-12-12', 'y', 'y', 'y', 'y', 'n', 'Screenshot_1.png');
+INSERT INTO `december` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, `temperature`, `problem`, `juhr`, `snackscost`, `asr`, `magrib`, `esha`, `tea`, `report`, `signout`, `overstart`, `overend`, `report1`, `image`) VALUES
+(41, '2019-12-30', 'N', 'n', '12:01', '24c', '\r\n my-excel-december  ', 'n', 'n', 'n', 'n', 'n', 'n', 'december-2019 studying', 'n', 'n', 'n', '\r\n    n', 'Screenshot_1.png');
 
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `dec`
---
-ALTER TABLE `dec`
-  ADD PRIMARY KEY (`sl`);
 
 --
 -- Indexes for table `december`
@@ -88,16 +72,10 @@ ALTER TABLE `december`
 --
 
 --
--- AUTO_INCREMENT for table `dec`
---
-ALTER TABLE `dec`
-  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT for table `december`
 --
 ALTER TABLE `december`
-  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

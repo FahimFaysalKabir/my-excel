@@ -48,10 +48,21 @@
          <tr>
            <td><?php echo $tukra['dc_date']?></td>
            <td><?php echo $tukra['fazr']?></td>
+           <td><?php echo $tukra['breakfastcost']?></td>
+           <td><?php echo $tukra['signintime']?></td>
+           <td><?php echo $tukra['temperature']?></td>
+           <td><?php echo $tukra['problem']?></td>
            <td><?php echo $tukra['juhr']?></td>
+           <td><?php echo $tukra['snackscost']?></td>
            <td><?php echo $tukra['asr']?></td>
            <td><?php echo $tukra['magrib']?></td>
            <td><?php echo $tukra['esha']?></td>
+           <td><?php echo $tukra['tea']?></td>
+           <td><?php echo $tukra['report']?></td>
+           <td><?php echo $tukra['signout']?></td>
+           <td><?php echo $tukra['overstart']?></td>
+           <td><?php echo $tukra['overend']?></td>
+           <td><?php echo $tukra['report1']?></td>
            <td><img src="ss/<?php echo $tukra['image']?>" alt=""></td>
          </tr>
 
