@@ -15,6 +15,13 @@ body{
   text-decoration:none;
   border-radius:5px;
 }
+.box table td a{
+
+  background-color:transparent;
+  text-decoration:underline;
+  color:#000;
+  
+}
 .box table {
 
   margin: auto;
@@ -32,7 +39,7 @@ td, th {
   border: 1px solid #dddddd;
   text-align:center;
   padding:5px;
-  font-size:14px;
+  font-size:12px;
 }
 table tr td img{
   width:50px;

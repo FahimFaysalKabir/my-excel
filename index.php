@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +42,7 @@
               "BRINGING CODE TO LIFE"
           </th>
           <th>SCREENSHOT</th>
+          <th>crud</th>
         </tr>
    <?php while( $tukra=mysqli_fetch_array($data)){?>
 
@@ -64,6 +66,9 @@
            <td><?php echo $tukra['overend']?></td>
            <td><?php echo $tukra['report1']?></td>
            <td><img src="ss/<?php echo $tukra['image']?>" alt=""></td>
+
+           <td><a href="delete.php?subject=<?php echo $tukra['sl']?>">trash</a></td>
+
          </tr>
 
       <?php } ?>
