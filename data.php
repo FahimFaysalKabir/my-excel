@@ -20,7 +20,7 @@ $conn= mysqli_connect('localhost','root','','my-excel');
   echo $rep1=$_POST['report-1'];
   echo $ss=$_FILES['ss']['name'];
   echo $ss_tmp=$_FILES['ss']['tmp_name'];
-  if($date){
+  if($fazr){
     move_uploaded_file($ss_tmp,'ss/'.$ss);
     mysqli_query($conn,"INSERT INTO december(dc_date,fazr,breakfastcost,signintime,temperature,problem,juhr,snackscost,asr,magrib,esha,tea,report,signout,overstart,overend,report1,image )VALUES('$date','$fazr','$brc','$sit','$temr','$evr','$juhr','$ev','$asr','$magrib','$esha','$tea','$rep','$sot','$ots','$ove','$rep1','$ss')");
       header("location:index.php");

@@ -14,8 +14,8 @@
    $conn= mysqli_connect('localhost','root','','my-excel');
    $data=mysqli_query($conn,"SELECT * FROM december");?>
    <div class="box">
-      <h1>DECEMBER-2019</h1>
-      <a href="form.php" class="input-button">INPUT FORM</a>
+      <h1>JANUARY-2020</h1>
+      <a href="form.php" class="input-button">ADD NEW</a>
       <table>
         <tr>
           <th>DATE</th>
@@ -42,7 +42,8 @@
               "BRINGING CODE TO LIFE"
           </th>
           <th>SCREENSHOT</th>
-          <th>crud</th>
+          <th>TRASH</th>
+          <th>EDIT</th>
         </tr>
    <?php while( $tukra=mysqli_fetch_array($data)){?>
 
@@ -68,6 +69,7 @@
            <td><img src="ss/<?php echo $tukra['image']?>" alt=""></td>
 
            <td><a href="delete.php?subject=<?php echo $tukra['sl']?>">trash</a></td>
+           <td><a href="edit-form.php?subject=<?php echo $tukra['sl']?>">edit</a></td>
 
          </tr>
 
