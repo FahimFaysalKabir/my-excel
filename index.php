@@ -15,7 +15,7 @@
    $data=mysqli_query($conn,"SELECT * FROM december");?>
    <div class="box">
       <h1>DECEMBER-2019</h1>
-      <a href="form.php">INPUT FORM</a>
+      <a href="form.php" class="input-button">INPUT FORM</a>
       <table>
         <tr>
           <th>DATE</th>

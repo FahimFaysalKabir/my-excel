@@ -2,7 +2,7 @@ body{
   background-image: url(images/1.jpg);
   background-repeat: repeat;
 }
-.box a{
+.box .input-button{
   padding:10px 0px;
   display: block;
   text-align: center;
@@ -20,7 +20,7 @@ body{
   background-color:transparent;
   text-decoration:underline;
   color:#000;
-  
+
 }
 .box table {
 
