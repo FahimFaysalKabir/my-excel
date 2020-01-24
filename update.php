@@ -24,7 +24,7 @@ echo $ss_tmp=$_FILES['ss']['tmp_name'];
 $conn= mysqli_connect('localhost','root','','my-excel');
 
 
- $sql = "UPDATE december SET dc_date='$date', fazr='$fazr',breakfastcost='$brc',signintime='$brc',temperature='$temr',problem='$evr',juhr='$juhr',snackscost='$ev',
+ $sql = "UPDATE december SET dc_date='$date', fazr='$fazr',breakfastcost='$brc',signintime='$sit',temperature='$temr',problem='$evr',juhr='$juhr',snackscost='$ev',
  asr='$asr',magrib='$magrib',esha='$esha',tea='$tea',report='$rep',signout='$sot',overstart='$ots',overend='$ove',report1='$rep1',image='$ss' WHERE sl=$sl ";
 mysqli_query($conn,$sql);
 header("location:index.php");
