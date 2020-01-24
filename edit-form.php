@@ -1,12 +1,11 @@
 <?php
-echo$sl= $_GET['subject'];
+$sl= $_GET['subject'];
 $conn= mysqli_connect('localhost','root','','my-excel');
 $sql = "SELECT * FROM december WHERE sl=$sl";
 $data=mysqli_query($conn,$sql);
 $tukra=mysqli_fetch_array($data);
- echo $tukra['dc_date'];
+?>
 
- ?>
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -25,7 +24,7 @@ $tukra=mysqli_fetch_array($data);
      <input name="fazr" type="text" value="<?php echo $tukra['fazr']; ?>">
 
      <label for="breakfast-cost">BREAKFAST COST</label>
-     <input name="breakfast-cost" type="text" value="<?php echo $tukra['breakfastcost']?>">hello</input>
+     <input name="breakfast-cost" type="text" value="<?php echo $tukra['breakfastcost']?>"></input>
      <label for="signin-time">SIGN-IN TIME</label>
      <input name="signin-time" type="text" value="<?php echo $tukra['signintime']?>">
      <label for="temperature">TEMPERATURE</label>
