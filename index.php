@@ -15,6 +15,11 @@
    $data=mysqli_query($conn,"SELECT * FROM december");?>
    <div class="box">
       <h1>JANUARY-2020</h1>
+      <div class="date">
+      <?php  echo "Today is " . date("d-m-Y") . "<br>";
+             echo "Today is " . date("l");
+      ?>
+      </div>
       <a href="form.php" class="input-button">ADD NEW</a>
       <table>
         <tr>
@@ -66,7 +71,7 @@
            <td><?php echo $tukra['overstart']?></td>
            <td><?php echo $tukra['overend']?></td>
            <td><?php echo $tukra['report1']?></td>
-           <td><img src="ss/<?php echo $tukra['image']?>" alt=""></td>
+           <td><a href="ss/<?php echo $tukra['image']?>"> <img src="ss/<?php echo $tukra['image']?>" alt=""></a></td>
 
            <td><a href="delete.php?subject=<?php echo $tukra['sl']?>">trash</a></td>
            <td><a href="edit-form.php?subject=<?php echo $tukra['sl']?>">edit</a></td>
