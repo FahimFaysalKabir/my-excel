@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 24, 2020 at 02:35 PM
+-- Generation Time: Jan 27, 2020 at 07:40 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -71,9 +71,8 @@ INSERT INTO `december` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, 
 (66, '2020-01-12', 'n', '', '', '', '            \r\n              ', '', '', '', '', '', '', '            data lost.phpmyadmin lost.\r\n12.01.2020-20.01.2020\r\n              ', '', '', '', '            \r\n              ', 'ban1.jpg'),
 (67, '2020-01-22', 'y', '', '', '', '                  \r\n                   ', 'y', '', '', '', '', '', '                  \r\n                   ', '18:54', '', '', '                  \r\n                   ', '03-1.jpg'),
 (68, '2020-01-23', 'n', '', '', '', '            \r\n              ', '', '', '', '', '', '', '            \r\n              ', '18:02', '', '', '            \r\n              ', '03-1.jpg'),
-(71, '2020-01-24', 'n', '', '', '', '                                                                                                            \r\n                                                                                              ', 'n', '', 'n', 'y', '', '', '                                                                                                            \r\n                                                                                              ', '', '', '', '                                                                                                            \r\n                                                                                              ', '03-1.jpg'),
-(73, '2020-01-24', 'y', '', '', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '', '', '\r\n    ', 'ban1.jpg'),
-(74, '2020-01-16', 'y', '', '', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '', '', '\r\n    ', 'chef_img.jpg');
+(71, '2020-01-24', 'n', '20tk', '14:30', '17c', 'EVERYDAY TRY TO SOLVE A PROBLEM,AND MAKE YOUR COMPANY BETTER                                                                                                                                           \r\n                                                                                                   ', 'n', '20tk', 'n', 'y', 'n', '20tk', '(REPORT) DONE IS BETTER THAN PERFECT                                                                                                                                          \r\n                                                                                                                       ', '18:00', '22:00', '12:00', '(REPORT-1) \"BRINGING CODE TO LIFE\"                                                                                                                                           \r\n                                                                                                                       ', 'chef_img.jpg'),
+(76, '2020-01-26', 'n', '', '17:26', '', 'need to complete iddo..psd to html      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '', '', '      \r\n         ', 'index.jpg');
 
 --
 -- Indexes for dumped tables
@@ -93,7 +92,7 @@ ALTER TABLE `december`
 -- AUTO_INCREMENT for table `december`
 --
 ALTER TABLE `december`
-  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
