@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 27, 2020 at 07:40 PM
+-- Generation Time: Feb 01, 2020 at 06:06 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -72,7 +72,44 @@ INSERT INTO `december` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, 
 (67, '2020-01-22', 'y', '', '', '', '                  \r\n                   ', 'y', '', '', '', '', '', '                  \r\n                   ', '18:54', '', '', '                  \r\n                   ', '03-1.jpg'),
 (68, '2020-01-23', 'n', '', '', '', '            \r\n              ', '', '', '', '', '', '', '            \r\n              ', '18:02', '', '', '            \r\n              ', '03-1.jpg'),
 (71, '2020-01-24', 'n', '20tk', '14:30', '17c', 'EVERYDAY TRY TO SOLVE A PROBLEM,AND MAKE YOUR COMPANY BETTER                                                                                                                                           \r\n                                                                                                   ', 'n', '20tk', 'n', 'y', 'n', '20tk', '(REPORT) DONE IS BETTER THAN PERFECT                                                                                                                                          \r\n                                                                                                                       ', '18:00', '22:00', '12:00', '(REPORT-1) \"BRINGING CODE TO LIFE\"                                                                                                                                           \r\n                                                                                                                       ', 'chef_img.jpg'),
-(76, '2020-01-26', 'n', '', '17:26', '', 'need to complete iddo..psd to html      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '', '', '      \r\n         ', 'index.jpg');
+(76, '2020-01-26', 'n', '', '17:26', '', 'need to complete iddo..psd to html      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '', '', '      \r\n         ', 'index.jpg'),
+(80, '2020-01-28', 'n', '', '', '', '\r\n    ', 'n', '', 'n', 'n', 'n', '', '\r\n    ', '22:00', '', '', '\r\n    ', 'index.jpg'),
+(81, '2020-01-29', 'n', '', '18:21', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '', '', '\r\n    ', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `february`
+--
+
+CREATE TABLE `february` (
+  `sl` int(100) NOT NULL,
+  `dc_date` date NOT NULL,
+  `fazr` varchar(100) NOT NULL,
+  `breakfastcost` varchar(100) NOT NULL,
+  `signintime` varchar(100) NOT NULL,
+  `temperature` varchar(100) NOT NULL,
+  `problem` varchar(300) NOT NULL,
+  `juhr` varchar(100) NOT NULL,
+  `snackscost` varchar(100) NOT NULL,
+  `asr` varchar(100) NOT NULL,
+  `magrib` varchar(100) NOT NULL,
+  `esha` varchar(100) NOT NULL,
+  `tea` varchar(100) NOT NULL,
+  `report` varchar(500) NOT NULL,
+  `signout` varchar(100) NOT NULL,
+  `overstart` varchar(100) NOT NULL,
+  `overend` varchar(100) NOT NULL,
+  `report1` varchar(500) NOT NULL,
+  `image` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `february`
+--
+
+INSERT INTO `february` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, `temperature`, `problem`, `juhr`, `snackscost`, `asr`, `magrib`, `esha`, `tea`, `report`, `signout`, `overstart`, `overend`, `report1`, `image`) VALUES
+(19, '2020-02-01', 'n', 'null', '18:05', '', '                  updated february.php\r\n      ssssssss             ', 'n', 'aaaaaaaaa', 'n', 'n', 'n', '', '                  \r\n                   ', '', '', '', '                  \r\n                   ', '');
 
 --
 -- Indexes for dumped tables
@@ -85,6 +122,12 @@ ALTER TABLE `december`
   ADD PRIMARY KEY (`sl`);
 
 --
+-- Indexes for table `february`
+--
+ALTER TABLE `february`
+  ADD PRIMARY KEY (`sl`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -92,7 +135,13 @@ ALTER TABLE `december`
 -- AUTO_INCREMENT for table `december`
 --
 ALTER TABLE `december`
-  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
+
+--
+-- AUTO_INCREMENT for table `february`
+--
+ALTER TABLE `february`
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
