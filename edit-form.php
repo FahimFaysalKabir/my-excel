@@ -1,7 +1,8 @@
 <?php
 $sl= $_GET['subject'];
+$month= $_GET['month'];
 $conn= mysqli_connect('localhost','root','','my-excel');
-$sql = "SELECT * FROM december WHERE sl=$sl";
+$sql = "SELECT * FROM $month WHERE sl=$sl";
 $data=mysqli_query($conn,$sql);
 $tukra=mysqli_fetch_array($data);
 ?>
@@ -17,7 +18,7 @@ $tukra=mysqli_fetch_array($data);
  </head>
  <body>
    <div class="form">
-   <form action="update.php?res=<?php echo $sl; ?>" method="post" enctype="multipart/form-data">
+   <form action="update.php?res=<?php echo $sl?>&month=<?php echo $month ;?>" method="post" enctype="multipart/form-data">
      <label for="date">DATE</label>
      <input name="date" type="text" value="<?php echo $tukra['dc_date']; ?>">
      <label for="fazr">FAZR(Y/N)</label>

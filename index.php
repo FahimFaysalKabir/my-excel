@@ -21,6 +21,22 @@
       ?>
       </div>
       <a href="form.php" class="input-button">ADD NEW</a>
+      <div class="months">
+      <ul>
+        <li><a href="#">JANUARY</a></li>
+        <li><a href="february.php?sub=february">FEBRUARY</a></li>
+        <li><a href="#">MARCH</a></li>
+        <li><a href="#">APRIL</a></li>
+        <li><a href="#">MAY</a></li>
+        <li><a href="#">JUNE</a></li>
+        <li><a href="#">JULY</a></li>
+        <li><a href="#">AUGUST</a></li>
+        <li><a href="#">SEPTEMBER</a></li>
+        <li><a href="#">OCTOBOR</a></li>
+        <li><a href="#">NOVEMBER</a></li>
+        <li><a href="#">DECEMBER</a></li>
+      </ul>
+      </div>
       <table>
         <tr>
           <th>DATE</th>

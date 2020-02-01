@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="form">
-  <form action="data.php" method="post" enctype="multipart/form-data">
+  <form action="data.php?month=february" method="post" enctype="multipart/form-data">
     <label for="date">DATE</label>
     <input name="date" type="date">
     <label for="fazr">FAZR(Y/N)</label>

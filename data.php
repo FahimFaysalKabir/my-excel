@@ -1,6 +1,7 @@
 <?php
 
 $conn= mysqli_connect('localhost','root','','my-excel');
+  echo $month=$_GET['month'];
    $date=$_POST['date'];
    $fazr=$_POST['fazr'];
    $brc=$_POST['breakfast-cost'];
@@ -22,8 +23,8 @@ $conn= mysqli_connect('localhost','root','','my-excel');
    $ss_tmp=$_FILES['ss']['tmp_name'];
   if($fazr){
     move_uploaded_file($ss_tmp,'ss/'.$ss);
-    mysqli_query($conn,"INSERT INTO december(dc_date,fazr,breakfastcost,signintime,temperature,problem,juhr,snackscost,asr,magrib,esha,tea,report,signout,overstart,overend,report1,image )VALUES('$date','$fazr','$brc','$sit','$temr','$evr','$juhr','$ev','$asr','$magrib','$esha','$tea','$rep','$sot','$ots','$ove','$rep1','$ss')");
-      header("location:index.php");
+    mysqli_query($conn,"INSERT INTO $month(dc_date,fazr,breakfastcost,signintime,temperature,problem,juhr,snackscost,asr,magrib,esha,tea,report,signout,overstart,overend,report1,image )VALUES('$date','$fazr','$brc','$sit','$temr','$evr','$juhr','$ev','$asr','$magrib','$esha','$tea','$rep','$sot','$ots','$ove','$rep1','$ss')");
+      header("location:$month.php?sub=$month");
   }
   else{
      header("location:form.php");
