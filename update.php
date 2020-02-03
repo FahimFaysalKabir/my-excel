@@ -23,7 +23,8 @@
 
 
 $conn= mysqli_connect('localhost','root','','my-excel');
-
+move_uploaded_file($ss_tmp,'ss/'.$ss);
+// mysqli_query($conn,"INSERT INTO $month(image )VALUES('$ss')");
 
  $sql = "UPDATE  $month SET dc_date='$date', fazr='$fazr',breakfastcost='$brc',signintime='$sit',temperature='$temr',problem='$evr',juhr='$juhr',snackscost='$ev',
  asr='$asr',magrib='$magrib',esha='$esha',tea='$tea',report='$rep',signout='$sot',overstart='$ots',overend='$ove',report1='$rep1',image='$ss' WHERE sl=$sl ";

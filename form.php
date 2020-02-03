@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="css/form.css">
   <title>FORM</title>
 </head>
+<?php
+ $month= $_GET['sub'];
+ ?>
 <body>
   <div class="form">
-  <form action="data.php?month=february" method="post" enctype="multipart/form-data">
+  <form action="data.php?month=<?php echo $month;?>" method="post" enctype="multipart/form-data">
     <label for="date">DATE</label>
     <input name="date" type="date">
     <label for="fazr">FAZR(Y/N)</label>

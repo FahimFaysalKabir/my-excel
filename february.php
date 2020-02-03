@@ -24,11 +24,12 @@
        <?php  echo "Today is " . date("d-m-Y") . "<br>";
               echo "Today is " . date("l");
        ?>
+       <a href="index.php">BACK TO HOME</a>
        </div>
-       <a href="form.php" class="input-button">ADD NEW</a>
+       <a href="form.php?sub=<?php echo $month;?>" class="input-button">ADD NEW</a>
        <div class="months">
          <ul>
-           <li><a href="#">JANUARY</a></li>
+           <li><a href="january.php?sub=january">JANUARY</a></li>
            <li><a href="february.php?sub=february">FEBRUARY</a></li>
            <li><a href="#">MARCH</a></li>
            <li><a href="#">APRIL</a></li>

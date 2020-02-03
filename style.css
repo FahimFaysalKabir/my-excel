@@ -1,6 +1,6 @@
 @font-face {
 src: url(fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
-font-family:abul;
+font-family:kashem;
 }
 .box .input-button{
   padding:10px 0px;
@@ -47,7 +47,7 @@ table tr td img{
 }
 .date{
   text-align: center;
-  font-family:abul;
+  font-family:kashem;
 
   margin-bottom:10px;
 }
@@ -58,6 +58,23 @@ table tr td img{
 .months ul li{
 display: inline-block;
 }
+.months ul li a{
+  font-family:kashem;
+  font-weight:normal;
+  font-size:13px;
+}
 .box h1{
   text-transform: uppercase;
+  font-family:kashem;
+}
+.home h1{
+  font-family:kashem;
+  font-size:30px;
+}
+.box a {
+  display: block;
+}
+.img img{
+  display: block;
+  margin: auto;
 }
