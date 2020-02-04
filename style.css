@@ -78,3 +78,32 @@ display: inline-block;
   display: block;
   margin: auto;
 }
+.our-inspiration{
+  width:40%;
+  margin: auto;
+}
+.our-inspiration h1{
+font-family:kashem;
+font-size:15px;
+text-align: center;
+}
+.our-inspiration::after{
+  content:'';
+  display: block;
+  clear:both;
+}
+.our-inspiration .avada a img {
+  width:100px;
+  height:100px;
+  float: left;
+}
+.our-inspiration .bluehost a img{
+  width:100px;
+  height:100px;
+  float: left;
+}
+.our-inspiration .payoneer a img{
+  width:100px;
+  height:100px;
+  float: left;
+}

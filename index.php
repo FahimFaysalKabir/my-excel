@@ -37,11 +37,23 @@
       </div>
 
       <div class="home">
-      <h1>HOME</h1>
+      <h1><u>HOME</u></h1>
       </div>
      </div>
      <div class="img">
       <img src="images/1.jpg" alt="">
+     </div>
+     <div class="our-inspiration">
+       <h1><u>OUR INSPIURATION</u></h1>
+      <div class="avada">
+        <a href="https://theme-fusion.com/"><img src="images/a.jpg" alt=""></a>
+      </div>
+      <div class="bluehost">
+        <a href="https://www.bluehost.com/"><img src="images/b.png" alt=""></a>
+      </div>
+      <div class="payoneer">
+        <a href="https://payoneer.com/"><img src="images/p.png" alt=""></a>
+      </div>
      </div>
 
 

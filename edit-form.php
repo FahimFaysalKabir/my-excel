@@ -63,7 +63,7 @@ $tukra=mysqli_fetch_array($data);
      </textarea>
 
      <label for="ss">SCREENSHOTS</label>
-     <input name="ss" type="file">
+     <input name="ss" type="file" select="<?php echo $tukra['image']?>">
 
      <input name="submit"  type="submit" value="POST">
 
