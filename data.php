@@ -1,6 +1,6 @@
 <?php
 
-$conn= mysqli_connect('localhost','root','','my-excel');
+   $conn= mysqli_connect('localhost','datacell_datacell','Salaah5&Zakat%','datacell_my-excel');
    $month=$_GET['month'];
    $date=$_POST['date'];
    $fazr=$_POST['fazr'];

@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My EXCEL</title>
@@ -23,7 +23,7 @@
       <ul>
         <li><a href="january.php?sub=january">JANUARY</a></li>
         <li><a href="february.php?sub=february">FEBRUARY</a></li>
-        <li><a href="#">MARCH</a></li>
+        <li><a href="march.php?sub=march">MARCH</a></li>
         <li><a href="#">APRIL</a></li>
         <li><a href="#">MAY</a></li>
         <li><a href="#">JUNE</a></li>
@@ -44,7 +44,7 @@
       <img src="images/1.jpg" alt="">
      </div>
      <div class="our-inspiration">
-       <h1><u>OUR INSPIURATION</u></h1>
+       <h1><u>OUR INSPIRATION</u></h1>
       <div class="avada">
         <a href="https://theme-fusion.com/"><img src="images/a.jpg" alt=""></a>
       </div>

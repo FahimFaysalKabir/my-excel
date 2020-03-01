@@ -1,7 +1,7 @@
 <?php
 $sl= $_GET['subject'];
 $month= $_GET['month'];
-$conn= mysqli_connect('localhost','root','','my-excel');
+$conn= mysqli_connect('localhost','datacell_datacell','Salaah5&Zakat%','datacell_my-excel');
 $sql = "SELECT * FROM $month WHERE sl=$sl";
 $data=mysqli_query($conn,$sql);
 $tukra=mysqli_fetch_array($data);
@@ -9,8 +9,8 @@ $tukra=mysqli_fetch_array($data);
 
  <!DOCTYPE html>
  <html lang="en">
- <head>
-   <meta charset="UTF-8">
+ <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="css/form.css">

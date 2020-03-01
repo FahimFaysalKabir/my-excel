@@ -22,7 +22,7 @@
  $ss_tmp=$_FILES['ss']['tmp_name'];
 
 
-$conn= mysqli_connect('localhost','root','','my-excel');
+$conn= mysqli_connect('localhost','datacell_datacell','Salaah5&Zakat%','datacell_my-excel');
 move_uploaded_file($ss_tmp,'ss/'.$ss);
 
 

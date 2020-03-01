@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My EXCEL</title>
@@ -12,7 +12,7 @@
 <body>
   <?php
 
-   $conn= mysqli_connect('localhost','root','','my-excel');
+   $conn= mysqli_connect('localhost','datacell_datacell','Salaah5&Zakat%','datacell_my-excel');
    $month= $_GET['sub'];
    $data=mysqli_query($conn,"SELECT * FROM  $month");
 
@@ -31,7 +31,7 @@
          <ul>
            <li><a href="january.php?sub=january">JANUARY</a></li>
            <li><a href="february.php?sub=february">FEBRUARY</a></li>
-           <li><a href="#">MARCH</a></li>
+           <li><a href="march.php?sub=march">MARCH</a></li>
            <li><a href="#">APRIL</a></li>
            <li><a href="#">MAY</a></li>
            <li><a href="#">JUNE</a></li>
