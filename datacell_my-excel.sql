@@ -1,10 +1,10 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.9.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 01, 2020 at 07:38 AM
--- Server version: 10.2.27-MariaDB
+-- Generation Time: May 01, 2020 at 01:06 PM
+-- Server version: 10.2.31-MariaDB
 -- PHP Version: 7.3.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -21,6 +21,55 @@ SET time_zone = "+00:00";
 --
 -- Database: `datacell_my-excel`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `april`
+--
+
+CREATE TABLE `april` (
+  `sl` int(100) NOT NULL,
+  `dc_date` date NOT NULL,
+  `fazr` varchar(100) NOT NULL,
+  `breakfastcost` varchar(100) NOT NULL,
+  `signintime` varchar(100) NOT NULL,
+  `temperature` varchar(100) NOT NULL,
+  `problem` varchar(300) NOT NULL,
+  `juhr` varchar(100) NOT NULL,
+  `snackscost` varchar(100) NOT NULL,
+  `asr` varchar(100) NOT NULL,
+  `magrib` varchar(100) NOT NULL,
+  `esha` varchar(100) NOT NULL,
+  `tea` varchar(100) NOT NULL,
+  `report` varchar(500) NOT NULL,
+  `signout` varchar(100) NOT NULL,
+  `overstart` varchar(100) NOT NULL,
+  `overend` varchar(100) NOT NULL,
+  `report1` varchar(500) NOT NULL,
+  `image` varchar(100) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `april`
+--
+
+INSERT INTO `april` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, `temperature`, `problem`, `juhr`, `snackscost`, `asr`, `magrib`, `esha`, `tea`, `report`, `signout`, `overstart`, `overend`, `report1`, `image`) VALUES
+(2, '2020-04-01', 'n', '', '17:30', '33c', '                        \r\n                        ', '', '', '', '', '', '', 'got a local data entry client.\r\n                       \r\n                        ', '', '', '', '                        \r\n                        ', ''),
+(3, '2020-04-10', 'n', '', '', '', '\r\n    ', '', '', '', '', '', '', 'lockdown is extended from 14th april to 25th april\r\n    ', '', '', '', '\r\n    ', ''),
+(4, '2020-04-13', 'n', '', '', '33c', '                              \r\n                             ', '', '', '', 'y', 'y', '', '                              \r\n                             ', '', '17:30', '23:30', '            doing opencart data upload,,                  \r\n                             ', 'Screenshot_5.jpg'),
+(5, '2020-04-14', 'n', '', '6:05', '26c', '            \r\n              ', '', '', '', '', '', '', '            \r\n              ', '8:30', '18:05', '', 'DO             ', ''),
+(6, '2020-04-16', 'n', '', '', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '19:20', '', '\r\n    ', ''),
+(7, '2020-04-19', 'n', '', '', '29c', '      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '18:20', '', '      working on customization cibus...\r\n         ', 'cibus-logo.png'),
+(8, '2020-04-20', 'n', '', '', '27', '\r\n    ', '', '', '', 'y', '', '', '\r\n    ', '', '19:00', '', '\r\n    ', ''),
+(9, '2020-04-23', 'n', '', '', '22c', 'started psd to html xtreme.\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '19:05', '', '\r\n    ', 'index.jpg'),
+(10, '2020-04-24', 'n', '', '', '24c', 'psd to html..xtreme\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '21:15', '', '\r\n    ', 'index.jpg'),
+(11, '2020-04-25', 'y', '', '', '24c', '            psd to html..xtreme\r\n              ', '', '', '', '', '', '', '            \r\n              ', '', '22:20', '12:45', '            \r\n              ', 'index.jpg'),
+(12, '2020-04-26', 'y', '', '', '23c', '      psd to html..xtrteme..\r\n              ', '', '', '', '', 'y', '', '            \r\n              ', '', '22:30', '', '            \r\n              ', 'index.jpg'),
+(13, '2020-04-27', 'y', '', '', '26c', '      psd to html..xtreme\r\n         ', '', '', '', '', 'y', '', '      \r\n         ', '', '23:24', '', '      \r\n         ', 'index.jpg'),
+(14, '2020-04-28', 'n', '', '', '24c', '            psd to html..xtreme..shape\r\n              ', '', '', '', '', 'y', '', '            \r\n              ', '', '23:01', '2:00', '            \r\n              ', 'index.jpg'),
+(15, '2020-04-29', 'n', '', '', '24c', '      psd to html..xtreme\r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '23:10', '6:08', '      \r\n         ', 'index.jpg'),
+(16, '2020-04-30', 'n', '', '', '25c', '      psd to html..xtreme\r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '22:44', '3:17', '      \r\n         ', '');
 
 -- --------------------------------------------------------
 
@@ -159,11 +208,55 @@ CREATE TABLE `march` (
 --
 
 INSERT INTO `march` (`sl`, `dc_date`, `fazr`, `breakfastcost`, `signintime`, `temperature`, `problem`, `juhr`, `snackscost`, `asr`, `magrib`, `esha`, `tea`, `report`, `signout`, `overstart`, `overend`, `report1`, `image`) VALUES
-(3, '2020-03-01', 'y', '', '', '', ' mission responsive\r\n         ', 'y', '', 'y', 'y', '', '', '      tut #66-71\r\n         ', '', '', '', '      \r\n         ', '');
+(3, '2020-03-01', 'y', '', '', '', ' mission responsive\r\n         ', 'y', '', 'y', 'y', '', '', '      tut #66-71\r\n         ', '', '', '', '      \r\n         ', ''),
+(4, '2020-03-13', 'n', '', '5:40', '22c', '      \r\n         ', '', '', '', '', '', '', '      these days i worked for data entry.\r\n-upwork::\r\n  -1 project completed successfully.\r\n  -pending client for interview\r\n-guru::\r\n  -working on..\r\n         ', '', '', '', 'morning 6 hours time should be blocked for coding.no bidding      \r\n         ', ''),
+(5, '2020-03-18', 'n', '', '7:30', '23c', '      \r\n         ', '', '', '', '', '', '', ' working on guru project as virtual assistant..\r\nalso preparing for responsive bootstrap LOCAL job // 15k     \r\n         ', '', '', '', '      \r\n         ', ''),
+(6, '2020-03-19', 'y', '', '4:30', '', '            \r\n              ', 'y', '', 'y', 'y', 'y', '', '            -working on cybus customization for gigs.\r\n-theme customization is fun.\r\n              ', '8:30', '', '', '            \r\n              ', ''),
+(7, '2020-03-20', 'n', '', '00:00', '', '      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '4:36', '', '', '      \r\n         ', ''),
+(8, '2020-03-21', 'n', '', '4:30', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '', '', '\r\n    ', ''),
+(9, '2020-03-25', 'ny', '', '', '', '                  \r\n                   ', 'y', '', 'y', 'y', 'y', '', '                  This week i am focusing on all 5 cybus theme customization..and open gig on fivesquid as:: \"avada,betheme,jupiter,enfold,xtheme\" custimization\r\n                   ', '', '', '', '            And plot working hours in 3 div:\r\n1.9:00-12:00 = psd to html\r\n2.12:00-15:00 = customization\r\n3.15:00-18:00 =bid and dataentry works.    \r\n                   ', '01-2.jpg'),
+(10, '2020-03-26', 'y', '', '6:15', '', '                        \r\n                        ', '', '', '', '', '', '', '            have to do new psd to html following asraf vai            \r\n                        ', '10:45', '22:00', '', 'working slowly is not a problem,but standing in a same position is a problem.                        \r\n                        ', ''),
+(11, '2020-03-27', 'n', '', '16:30', '', '      \r\n         ', '', '', '', '', 'y', '', '      \r\n         ', '19:45', '11:00', '12:40', '      \r\n         ', ''),
+(12, '2020-03-30', 'n', '', '13:30', '', '\r\n    ', '', '', '', '', '', '', '\r\n    ', '', '', '', '\r\n    ', ''),
+(13, '2020-03-31', 'y', '', '', '', '      \r\n         ', '', '', '', '', '', '', '      \r\n         ', '', '22:00', '00:00', '      \r\n         ', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `may`
+--
+
+CREATE TABLE `may` (
+  `sl` int(100) NOT NULL,
+  `dc_date` date NOT NULL,
+  `fazr` varchar(100) NOT NULL,
+  `breakfastcost` varchar(100) NOT NULL,
+  `signintime` varchar(100) NOT NULL,
+  `temperature` varchar(100) NOT NULL,
+  `problem` varchar(300) NOT NULL,
+  `juhr` varchar(100) NOT NULL,
+  `snackscost` varchar(100) NOT NULL,
+  `asr` varchar(100) NOT NULL,
+  `magrib` varchar(100) NOT NULL,
+  `esha` varchar(100) NOT NULL,
+  `tea` varchar(100) NOT NULL,
+  `report` varchar(500) NOT NULL,
+  `signout` varchar(100) NOT NULL,
+  `overstart` varchar(100) NOT NULL,
+  `overend` varchar(100) NOT NULL,
+  `report1` varchar(500) NOT NULL,
+  `image` varchar(100) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `april`
+--
+ALTER TABLE `april`
+  ADD PRIMARY KEY (`sl`);
 
 --
 -- Indexes for table `february`
@@ -184,8 +277,20 @@ ALTER TABLE `march`
   ADD PRIMARY KEY (`sl`);
 
 --
+-- Indexes for table `may`
+--
+ALTER TABLE `may`
+  ADD PRIMARY KEY (`sl`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `april`
+--
+ALTER TABLE `april`
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `february`
@@ -203,7 +308,13 @@ ALTER TABLE `january`
 -- AUTO_INCREMENT for table `march`
 --
 ALTER TABLE `march`
-  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
+-- AUTO_INCREMENT for table `may`
+--
+ALTER TABLE `may`
+  MODIFY `sl` int(100) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
